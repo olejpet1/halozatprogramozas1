@@ -24,3 +24,6 @@ nevek = ["Tibi" , "Sanyi" , "Tibi"]
 print(f"Nevek: {set(nevek)}")
 print(tuple([1,2,3]))
 
+#HF git parancsok
+#git innit: adott mappa verziokoveteseken inditasa
+#git add . 
