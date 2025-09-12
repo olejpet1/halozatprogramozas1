@@ -11,3 +11,15 @@ elif gondolt_szam > bekert_szam:
 	print("Nagyobbra gondoltam")
 else:
 	print("Kisebbre gondoltam") 
+
+#keszits egy fuggvenyt elojel neven , mely atvesz egy egesz szamot es az elojelet adja vissza
+
+def elojel(szam):
+    if szam >= 0:
+        return "+"
+    else:
+        return "-"
+   
+szam= int(input("Kerek egy szamot "))
+
+print(f"A {szam} elojele:{elojel(szam)}")
