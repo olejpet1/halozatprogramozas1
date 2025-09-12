@@ -15,7 +15,7 @@ else:
 #keszits egy fuggvenyt elojel neven , mely atvesz egy egesz szamot es az elojelet adja vissza
 
 def elojel(szam):
-    if szam >= 0:
+    if szam >=0:
         return "+"
     else:
         return "-"
@@ -23,3 +23,17 @@ def elojel(szam):
 szam= int(input("Kerek egy szamot "))
 
 print(f"A {szam} elojele:{elojel(szam)}")
+
+def tesztesetek():
+      teszt(5,"+")
+      teszt(-3,"-")
+      teszt(-1,"-")
+      teszt(0,"+")
+      teszt(1,"+")
+      
+def teszt(szam, elvart_elojel):
+    if elojel(szam) == elvart_elojel:
+            print(f"elojel({szam})=={elvart_elojel} true")
+    else:
+          print(f"elojel({szam})=={elvart_elojel} else")
+tesztesetek()
