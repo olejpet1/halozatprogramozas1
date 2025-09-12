@@ -1,0 +1,1 @@
+while bennmaradasi feltetel:
