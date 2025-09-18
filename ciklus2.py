@@ -11,11 +11,11 @@ print(osszeg)
 
 
 osszeg = 0
-be = "0"   # nem üres, hogy belépjen a ciklusba
+be = "0" 
 
 while be != "":
-    be = input("Kérek egy számot (Enter a vége): ")
-    if be != "":          # csak akkor adja hozzá, ha tényleg számot írtunk be
+    be = input("Kérek egy számot: ")
+    if be != "":      
         osszeg += int(be)
 
 print("Az összeg:", osszeg)
