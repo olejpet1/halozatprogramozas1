@@ -15,4 +15,4 @@ for szo in szavak:
         monogram += szo[0].upper()
 print("A monogramod:", monogram)
 
-# OLEJ PETER SZOMbAT ALEX 
+# OLEJ PETER SZOMBAT ALEX 
