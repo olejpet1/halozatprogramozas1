@@ -14,3 +14,5 @@ for szo in szavak:
     else:
         monogram += szo[0].upper()
 print("A monogramod:", monogram)
+
+# OLEJ PÉTER SZOMTAT ALEX 
