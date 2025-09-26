@@ -29,12 +29,12 @@ while True:
         break
 print(f"Ez a szamok osszege: {ossz}")
 
-all=0
-while True:
-    bestring=input("Kérek egy számot")
-	if bestring !="":
-        all=all+int(bestring)
-    else:
-        break
-print(f"Ez a szamok osszege: {all}")
+#kerjel be egy szamot 0 tol eddig a paros szamokat irasd ki
+szam=int(input(f"kerem a hatar szamot"))
+szam1=0
+while szam1!=szam+1:
+    print(szam1)
+    szam1+=1
+    if szam1%2==0
+
 	
